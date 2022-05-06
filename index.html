@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Sip Digital</title>
+</head>
+
+<body>
+  <main>
+    <!-- BARRA LATERAL DE NAVEGAÇÃO COM A LOGO-->
+    <nav class="nav-container">
+      <h1 class="title-logo">LOGO</h1>
+      <ul class="nav-bar">
+        <div>
+          <li class="itens">
+            <ion-icon name="bar-chart-outline"></ion-icon> <strong>Dashboard</strong>
+          </li>
+          <li class="itens">
+            <ion-icon name="document-attach-outline"></ion-icon> Pedidos
+          </li>
+          <li class="itens">
+            <ion-icon name="bag-handle-outline"></ion-icon> Produtos
+          </li>
+          <li class="itens">
+            <ion-icon name="people-outline"></ion-icon> Clientes
+          </li>
+          <li class="itens">
+            <ion-icon name="cash-outline"></ion-icon> Financeiro
+          </li>
+          <li class="itens">
+            <ion-icon name="man-outline"></ion-icon> Usuários
+          </li>
+        </div>
+        <div>
+          <li class="itens" id="logout">
+            <ion-icon name="arrow-undo-outline"></ion-icon> Logout
+          </li>
+        </div>
+      </ul>
+    </nav>
+    <!--CONTEUDO DA PAGINA E SUAS FUNÇÕES-->
+    <section class="conteudo">
+      <div>
+        <input type="text" class="search" placeholder=" pesquisar">
+      </div>
+      <!--CARDS-->
+      <div class="cards">
+        <p class="card">
+          <ion-icon name="storefront-outline"></ion-icon>Unidades Registradas <br><strong>1</strong>
+        </p>
+        <p class="card">
+          <ion-icon name="people-outline"></ion-icon>Novos Clientes <br><strong>104</strong>
+        </p>
+        <p class="card">
+          <ion-icon name="server-outline"></ion-icon>Vendas Realizadas <br><strong>7270</strong>
+        </p>
+        <p class="card">
+          <ion-icon name="diamond-outline"></ion-icon>Lucro Líquido (Geral)<br><strong>427.300,50</strong>
+        </p>
+      </div>
+      <!--IMAGEM DO GRAFICO-->
+      <img class="img" src="imagens/Gráfico.png"
+        alt="Imagem de um gráfico, onde mostra os dados e os balanços da empresa.">
+      <!--TABELA-->
+      <h2>Ultimos pedidos realizados</h2>
+      <div>
+        <table>
+          <tr>
+            <th>Pedido</th>
+            <th>Data e Horário</th>
+            <th>Produtos</th>
+            <th>Total</th>
+            <th>Comprador</th>
+            <th>Status dos Pedidos</th>
+            <th>Ação Recomendada</th>
+          </tr>
+          <tr>
+            <td>0112466</td>
+            <td>30/07/2021 - 15:49</td>
+            <td><strong>Ver (Quantidade)</strong></td>
+            <td>R$ 200,00</td>
+            <td>Comprador A</td>
+            <td>Pronta para embalar</td>
+            <td class="button-check">MARCAR COMO EMBALADO</td>
+          </tr>
+          <tr>
+            <td>0112466</td>
+            <td>30/07/2021 - 14:17</td>
+            <td><strong>Ver (Quantidade)</strong></td>
+            <td>R$ 200,00</td>
+            <td>Comprador B</td>
+            <td>Pronta para embalar</td>
+            <td class="button-check">MARCAR COMO EMBALADO</td>
+          </tr>
+          <tr>
+            <td>0112466</td>
+            <td>30/07/2021 - 22:07</td>
+            <td><strong>Ver (Quantidade)</strong></td>
+            <td>R$ 200,00</td>
+            <td>Comprador C</td>
+            <td>Pronta para embalar</td>
+            <td class="button-check">MARCAR COMO EMBALADO</td>
+          </tr>
+          <tr>
+            <td>0112466</td>
+            <td>30/07/2021 - 11:45</td>
+            <td><strong>Ver (Quantidade)</strong></td>
+            <td>R$ 200,00</td>
+            <td>Comprador D</td>
+            <td>Pronta para embalar</td>
+            <td class="button-check">MARCAR COMO EMBALADO</td>
+          </tr>
+          <tr>
+            <td>0112466</td>
+            <td>30/07/2021 - 12:22</td>
+            <td><strong>Ver (Quantidade)</strong></td>
+            <td>R$ 200,00</td>
+            <td>Comprador E</td>
+            <td>Pronta para embalar</td>
+            <td class="button-check">NOTIFICAR ENVIO</td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <ul class="pages-numbers">
+          <li class="pages1">1</li>
+          <li class="pages">2</li>
+          <li class="pages">3</li>
+          <li class="pages">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+<!--AQUI EU IMPORTEI OS ICONES https://ionic.io/ionicons AQUI TA A FONTE-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>
